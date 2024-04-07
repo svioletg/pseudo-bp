@@ -1,3 +1,7 @@
+## 0.8.1
+
+> svioletg, 2024-04-??
+
 ## 0.8.0
 
 Made changes for self-hosting a PseudoBP server possible.

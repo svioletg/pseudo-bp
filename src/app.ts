@@ -10,7 +10,7 @@ import cookieParser from "cookie-parser";
 // untyped imports
 const gameServer = require("./game.server.js");
 
-const gameport = process.env.PORT || 9225;
+const gameport = process.env.PORT || 80;
 const app = express();
 const server = http.createServer(app);
 

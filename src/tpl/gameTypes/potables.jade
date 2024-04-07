@@ -79,7 +79,13 @@ block scoreboard
         tbody#ScoreboardContent
 
 block gameSettings
-    // No settings!
+    #AnswerTimeoutSeconds.disabled
+        span.SettingsName Answer Timeout (Seconds)
+        .ToolTipBlock
+            .ToolTipArrowCentered
+                input#AnswerTimeoutSecondsInput(type="text" maxlength="20" disabled="disabled")
+            .ToolTip.
+                How long to wait before timing out an answer.
 
 block gameScripts
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")

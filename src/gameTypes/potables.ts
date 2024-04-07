@@ -7,7 +7,7 @@ const db = new sqlite3.Database(__dirname + "/../misc/jeopardy.db");
 const MAX_PLAYERS = 10;
 const SECOND = 1000;
 const RELEASE_TIMEOUT = 6 * SECOND;
-const ANSWER_TIMEOUT = 8 * SECOND;
+const ANSWER_TIMEOUT = 10 * SECOND;
 const REVEAL_TIMEOUT = 2.5 * SECOND;
 const END_TIMEOUT = 10 * SECOND;
 
