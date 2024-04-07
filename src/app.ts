@@ -2,6 +2,8 @@
 //
 // Entry point into the app.
 
+require("dotenv").config();
+
 import * as winston from "winston";
 import express from "express";
 import * as http from "http";
@@ -10,7 +12,7 @@ import cookieParser from "cookie-parser";
 // untyped imports
 const gameServer = require("./game.server.js");
 
-const gameport = process.env.PORT || 80;
+const gameport = process.env.PORT || 2000;
 const app = express();
 const server = http.createServer(app);
 

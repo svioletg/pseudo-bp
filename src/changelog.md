@@ -1,5 +1,8 @@
 ## 0.8.1
 
+* Change default port to 2000
+* Now using the `dotenv` package to handle environment variables
+
 > svioletg, 2024-04-??
 
 ## 0.8.0
